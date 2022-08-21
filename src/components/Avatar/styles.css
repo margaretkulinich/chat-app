@@ -1,0 +1,28 @@
+.avatar {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.avatar img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.avatar-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.fa-circle-check-icon {
+  color: green;
+  position: absolute;
+  bottom: -0.1rem;
+  right: -0.1rem;
+  width: 13px;
+  height: 13px;
+}
