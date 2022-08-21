@@ -31,6 +31,10 @@ export const Chat = () => {
     useEffect(() => {
         const restoredChats = JSON.parse(localStorage.getItem(LOCALSTORAGE_CHATS_KEY));
 
+        if (!restoredChats) {
+            return;
+        }
+
         dispatch(resetChats(restoredChats));
     }, [dispatch]);
     
